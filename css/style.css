@@ -5,8 +5,17 @@ body {
 }
 
 #container {
-
+	width: 40%;
+	display: block;
+	padding: 25px;
+	margin: 25px;
+	border-radius: 25px;
+	background-color: black;
 }
+
+.bg { z-index: -1 }
+
+.fg { z-index: 100 }
 
 .dashed {
 

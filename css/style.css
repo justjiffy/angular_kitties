@@ -15,6 +15,8 @@ body {
 .left-container, .right-container {
 
 }
+
 h1 {
-	
+	font-family: 'Rye', cursive;
+	font-size: 60px;
 }

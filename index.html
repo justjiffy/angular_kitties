@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="kittiesApp">
+	<head>
+
+		<title>Kitties App!</title>
+
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/KittiesController.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	</head>
+	<body ng-controller="KittiesController as meow">
+
+		<h1>PURRfect Companions</h1>
+		<ul ng-repeat="kitty in meow.kitties">
+			<li>{{kitty.catName}}</li>
+		</ul>
+
+    <!--Sourcing Angular-->		
+
+		<!-- Source in module -->
+
+		<!-- Source in controller -->
+
+	</body>
+</html>

@@ -15,13 +15,9 @@
 		<h1>PURRfect Companions</h1>
 		
 		<div id="container" ng-repeat="kitty in meow.kitties">
-		<style>
-			#inlay {
-				background-image: url({{kitty.image}});
-				width: "80%";
-			}
-		</style>
-			<div id="inlay"><img ng-src={{kitty.image}} /><h3>{{kitty.catName}}</h3>
+			<img ng-src={{kitty.image}} width="100%" /><h3>{{kitty.catName}}</h3>
+			<li>{{kitty.monthsOld}} MONTHS OLD</li>
+			<li>{{kitty.gender}}</li>
 		</div>		
 
 

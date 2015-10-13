@@ -5,10 +5,10 @@ body {
 }
 
 #container {
-	width: 40%;
+	width: 30%;
 	display: block;
 	padding: 25px;
-	margin: 25px;
+	margin: 50px 30%;
 	border-radius: 25px;
 	background-color: black;
 }
@@ -28,4 +28,20 @@ body {
 h1 {
 	font-family: 'Rye', cursive;
 	font-size: 60px;
+}
+
+h3 {
+	font-family:  'Rye'm cursive;
+	font-size: 42px;
+	color: white;
+	padding:0;
+	margin: 0;
+}
+
+li {
+	font-family: tahoma;
+	font-size: 20px;
+	font-style: bold;
+	color: #ffaaaa;
+	padding-left: 20px;
 }
